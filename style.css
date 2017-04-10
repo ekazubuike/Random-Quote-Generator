@@ -1,0 +1,29 @@
+.sofia {
+  font-family: "Sofia";
+}
+
+h1, .row, .quote {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #A9A9A9;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#foot :link {
+  color: #FFF;
+}

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Random Quotation Generator</title>
+     <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--bootstrap.css-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--bootstrap.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Google font-->
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Sofia">
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/cf35f81c18.js"></script>   
+  </head>
+  <body class="sofia" style="background-color: #008080;">
+    <div class="container-fluid">
+    <div>
+      <h1 style="padding-bottom: 25px; color:#FFF;">Random Quotation Generator</h1>
+    </div>
+      <div class="col-xs-offset-1 col-xs-10">
+      <div class="well">
+        <p class="quote">Click "New Quote!" to generate a random quotation.</p>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <button class="btn-lg" id="getQuote"><i class="fa fa-refresh" aria-hidden="true"></i> New Quote!</button>
+      </div>
+      <div class="col-xs-6">
+        <a href="" id="tweet" target=_blank><button class="btn-lg"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet Quote</button></a>
+    </div>
+    </div>
+  </body>
+    <footer>Quotations from <a href="http://quotes.stormconsultancy.co.uk/api" target=_blank id="foot">Storm Consultancy's API</a></footer>    
+</html>
